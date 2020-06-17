@@ -17,6 +17,8 @@
         <RobotCommand>
            <Pos A1="..." A2="..." A3="..." A4="..." A5="..." A6="...">
            </Pos>
+           <Check Count="...">
+           </Check>
         </RobotCommand>
    -->
    <RECEIVE>
@@ -28,6 +30,7 @@
          <ELEMENT Tag="RobotCommand/Pos/@A4" Type="REAL" />
          <ELEMENT Tag="RobotCommand/Pos/@A5" Type="REAL" />
          <ELEMENT Tag="RobotCommand/Pos/@A6" Type="REAL" />
+         <ELEMENT Tag="RobotCommand/Check/@Count" Type="INT" />
       </XML>
    </RECEIVE>
 
